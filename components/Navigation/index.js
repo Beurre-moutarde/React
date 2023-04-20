@@ -7,16 +7,16 @@ function Navigation(props) {
 		<nav>
 			<ul className="flex-row mobile-view">
 				<li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("about")}>About Me</span>
+					<div onClick={() => setCurrentTab("about")}>About Me</div>
 				</li>
 				<li className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
+					<div onClick={() => setCurrentTab("portfolio")}>Portfolio</div>
 				</li>
 				<li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("contact")}>Contact</span>
+					<div onClick={() => setCurrentTab("contact")}>Contact</div>
 				</li>
 				<li className={currentTab === "resume" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("resume")}>Resume</span>
+					<div onClick={() => setCurrentTab("resume")}>Resume</div>
 				</li>
 			</ul>
 		</nav>
